@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Model weights & checkpoints
+*.pth
+*.pkl
+*.dat
+
+# ONNX exported models (huge constant tensors extracted alongside .onnx)
+onnx_models/
+
+# Templates & results (large generated files)
+templates/
+results/
+
+# Output files
+*.xlsx
+
+# IDE
+.vscode/
+
+# Claude Code - local settings
+.claude/settings.local.json
+
+# OS files
+Thumbs.db
+.DS_Store
