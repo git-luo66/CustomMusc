@@ -18,6 +18,12 @@ results/
 # Output files
 *.xlsx
 
+.claude/
+
+CLAUDE.md
+
+skills-lock.json
+
 # IDE
 .vscode/
 
